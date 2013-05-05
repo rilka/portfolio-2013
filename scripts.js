@@ -77,22 +77,4 @@ $(window).load(function() {
 
         return false;             
     }); 
-
-    // janky
-    /*$("*").filter(function() { return $(this).css("color") == "rgb(97, 210, 214)" }).css("color", "#F00");
-    $("*").filter(function() { return $(this).css("background-color") == "rgb(97, 210, 214)" }).css("background-color", "#F00");
-    var new_color = String(shadeColor("FF0000", -10));
-    $("*").filter(function() { return $(this).css("background-color") == "rgb(57, 198, 203)" }).css("background-color", "#" + new_color);*/
 });
-
-
-// thanks to "Pimp Trizkit" of stackoverflow <3
-function shadeColor(color, percent) { 
-    function parse(P) { return (P < 255 ? P < 1 ? 0 : P : 255) }
-    var num = parseInt(color,16),
-    amt = Math.round(2.55 * percent),
-    R = (num >> 16) + amt,
-    B = (num >> 8 & 0x00FF) + amt,
-    G = (num & 0x0000FF) + amt;
-    return (0x1000000 + parse(R) * 0x10000 + parse(B) * 0x100 + parse(G)).toString(16).slice(1);
-}

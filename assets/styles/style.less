@@ -4,11 +4,11 @@
 
 /* ------------------------------------------------------------------- MIXINS */
 
-.transitions(@time: 0.3s) {
-    -webkit-transition: all @time;
-    -moz-transition: all @time;
-    -o-transition: all @time;   
-    transition: all @time;    
+.transitions(@kind: all, @time: 0.3s) {
+    -webkit-transition: @arguments;
+    -moz-transition: @arguments;
+    -o-transition: @arguments;   
+    transition: @arguments;    
 }
 
 .rounded_corners (@radius: 5px) {
@@ -54,11 +54,12 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
+    font-size: 18px;
     font-weight: 300;
     color: @base;
 }
 
-a {
+a, a:visited {
     text-decoration: none;
     color: @base;
     .transitions;
@@ -91,7 +92,7 @@ img:hover {
         display: inline-block;
         background: @base;
         color: #FFF;
-        font-size: 12px;
+        font-size: 0.7em;
         padding: 4px 8px;
         margin: 0 8px 10px 0;
     }
@@ -113,7 +114,7 @@ img:hover {
 #wrapper {
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -126,6 +127,9 @@ img:hover {
 
 #title {
     float: left;
+    h1 a, p a {
+        .transitions(color, 0.3s)
+    }
 }
 
 h1 {
@@ -139,7 +143,9 @@ h1 {
 #title p {
     margin: 0;
     padding: 0;
-    a { .accented_link; }
+    a { 
+        .accented_link; 
+    }
 }
 
 #navigation {
@@ -151,7 +157,7 @@ h1 {
 
 #navigation a {
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 100;
     padding: 4px 12px 6px;
     margin: 0 4px;
@@ -209,7 +215,7 @@ h1 {
 
 #about_img {
     float: right;
-    width: 50%;
+    width: 48%;
     img {
         width: 100%;
         margin-top: 24px;
@@ -218,7 +224,11 @@ h1 {
 
 #about_main {
     float: left;
-    width: 45%;
+    width: 48%;
+}
+
+#about a:hover {
+    cursor: crosshair;
 }
 
 /* ------------------------------------------------------------------- RESUME */
@@ -227,18 +237,18 @@ h1 {
     overflow: auto;
     h3 {
         margin: 20px 0px 0px;
-        font-size: 16px;
+        font-size: 0.9em;
     }
     h4 {
         margin: 0;
-        font-size: 14px;
+        font-size: 0.9em;
         font-weight: 300;
         font-style: italic;
     }
     h5 {
         margin: 3px 0px 0px;
         text-transform: uppercase;
-        font-size: 11px;
+        font-size: 0.6em;
         font-weight: 300;
     }
     p {
@@ -247,7 +257,7 @@ h1 {
             color: @accent;
             font-weight: 400;
         }
-        font-size: 14px;
+        font-size: 0.9em;
     }
 }
 
@@ -322,7 +332,7 @@ h1 {
         h3 {
             margin: 6px;
             font-weight: normal;
-            font-size: 12px;
+            font-size: 13px;
         }
     }
 }
@@ -330,7 +340,7 @@ h1 {
 #projects a:hover {
     .caption {
         opacity: 1;
-        bottom: 0px;
+        bottom: -1px;
 
     }
 
@@ -345,7 +355,7 @@ h1 {
 
 #contact_side {
     float: left;
-    width: 25%;
+    width: 30%;
 }
 
 #contact_main {
