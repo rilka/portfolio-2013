@@ -17,8 +17,8 @@ $(window).load(function() {
     // courses tooltip 
     $("#courses_link").bind("mousemove", function(event) {
         $(".courses").css({
-            top: event.pageY + 7 + "px",
-            left: event.pageX + 7 + "px"
+            top: event.pageY - $("#wrapper").offset().top + 7 + "px",
+            left: event.pageX - $("#wrapper").offset().left + 7 + "px"
         }).show();
     }).bind("mouseout", function() {
         $(".courses").hide();
