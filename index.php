@@ -92,7 +92,7 @@
                             <li>sleeping</li>                            
                             <li>the IKEA catalog</li>
                             <li><a href="http://ntris.mit.edu" target="_blank">ntris</a></li>                                                        
-                            <li>board games that ruin friendships</li>                            
+                            <li>friendship-ruining board games</li>                            
                             <li><a href="http://www.billyjanitsch.com" target="_blank">Billy Janitsch</a></li>
                         </ul>
                     </div>
