@@ -28,11 +28,22 @@
 <!doctype html>
 
 <!-- 
-    welcome to my source code! it's nice to meet you*. <3 
-    
 
+       .::.
+       _::_
+     _/____\_        ()
+     \      /      <~~~~>
+      \____/        \__/         <>_
+      (____)       (____)      (\)  )                        __/"""\
+       |  |         |  |        \__/      WWWWWW            ]___ 0  }
+       |__|         |  |       (____)      |  |       __        /   }
+      /    \        |__|        |  |       |  |      (  )     /~    }
+     (______)      /____\       |__|       |__|       ||      \____/
+    (________)    (______)     /____\     /____\     /__\     /____\
+    /________\   (________)   (______)   (______)   (____)   (______)
 
-    *unless you're billy janitsch. GO AWAY BILLY :(
+    welcome to my source code! it's nice to meet you.
+
 -->
 
 <html>
@@ -62,7 +73,7 @@
             <div id="header">
                 <div id="title">
                     <h1><a href="#home">Angela C. Li</a></h1>
-                    <p><a href="mailto:angela@angelaconstance.com">angela@angelaconstance.com</a></p>
+                    <p><a href="mailto:hello@angela.li">hello@angela.li</a></p>
                 </div>
                 <div id="navigation">
                     <a href="#about">about</a>                    
@@ -93,7 +104,6 @@
                             <li>the IKEA catalog</li>
                             <li><a href="http://ntris.mit.edu" target="_blank">ntris</a></li>                                                        
                             <li>friendship-ruining board games</li>                            
-                            <li><a href="http://www.billyjanitsch.com" target="_blank">Billy Janitsch</a></li>
                         </ul>
                     </div>
                     <div id="about_img">
@@ -253,12 +263,12 @@
                         <a href="https://twitter.com/angelaconstance">t</a> 
                         <a href="http://fauvism.tumblr.com">o</a> 
                         <a href="http://pinterest.com/angelaconstance">&</a> 
-                        <p><a href="https://github.com/angelaconstance">Fork me on GitHub</a></p>
+                        <p><a href="https://github.com/angelali">Fork me on GitHub</a></p>
                     </div>
                     <div id="contact_main">
                         <h2>Owl Post</h2>
                         <p>I love getting mail, even if it isn't scratched out on parchment and sealed with wax. I read every word that passes through my inbox and promise to respond to your message within 24 hours&mdash;less if there isn't a storm brewing. So type away!</p>
-                        <p>You can also email me directly at <a href="mailto:angela@angelaconstance.com">angela@angelaconstance.com</a>.</p>
+                        <p>You can also email me directly at <a href="mailto:hello@angela.li">hello@angela.li</a>.</p>
                         <div id="contact_form">  
                             <form name="contact" action="" method="">  
                               <fieldset>  
@@ -284,7 +294,7 @@
                 </div>
             </div>
             <div id="footer">
-                With love from <a href="mailto:angela@angelaconstance.com">Angela Li</a>. The color of the moment is <a href="http://www.colourlovers.com/color/<?php echo $c;?>">#<?php echo $c?></a>&mdash;refresh for a makeover!
+                With love from <a href="mailto:hello@angela.li">Angela Li</a>. The color of the moment is <a href="http://www.colourlovers.com/color/<?php echo $c;?>">#<?php echo $c?></a>&mdash;refresh for a makeover!
             </div>
         </div>
     </body>
