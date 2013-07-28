@@ -17,7 +17,7 @@
     }
 
     // generate random color
-    $colors = array("E96A7D", "FF9900", "61D2D6", "FEAE02");
+    $colors = array("E96A7D", "FF7575", "FF9900", "FEAE02", "EDC951", "7DCE9E", "61D2D6", "CC8099");
     $c = $colors[array_rand($colors)];
     $d = adjust_color($c, -10);
     $s = file_get_contents("styles/style.css");
@@ -74,15 +74,15 @@
             <div id="main">
                 <div id="home_section">
                     <h2 id="headline">The dreamers will inherit the earth.*</h2>
-                    <p id="subtitle"><strong>*</strong>But just in case that doesn't work out, I'm also: a designer, programmer, teacher, writer, and maker of things.</p>
+                    <p id="subtitle"><strong>*</strong>But just in case that doesn't work out, I'm also: a designer, coder, teacher, writer, and maker of things.</p>
                 </div>
                 <div id="about_section">
                     <div id="about_main">
-                        <h2>The lowdown</h2>
+                        <h2>TL;DR</h2>
                         <div class="tldr">
-                            <p>Rising senior at Harvard studying computer science. In love with design, technology, psychology, and language. Useful in a pinch as a walking Harry Potter encyclopedia.</p>
+                            <p>Senior at Harvard studying computer science. In love with design, technology, psychology, and language. Walking Harry Potter encyclopedia.</p>
                         </div>
-                        <h2>I really dig</h2>
+                        <h2>I really dig ...</h2>
                         <ul class="list">
                             <li>minimalism</li>
                             <li>logic puzzles</li>                            
@@ -106,8 +106,8 @@
                         <h2>Work Experience</h2>
                             <h3>Software Engineering Intern</h3>
                                 <h4>Palantir Technologies</h4>
-                                <h5>starting June 2013</h5>
-                                <p>Front-end development intern in Palo Alto for Palantir Gotham (government analytics platform).</p>
+                                <h5>June 2013&mdash;Now</h5>
+                                <p>Develop features for Code 33, the Palantir Gotham web client.</p>
                             <h3>Teaching Fellow</h3>
                                 <h4>Harvard School of Engineering and Applied Sciences</h4>
                                 <h5>Sep 2012&mdash;Now</h5>
@@ -115,7 +115,7 @@
                             <h3>Web Developer</h3>
                                 <h4>Freelance</h4>
                                 <h5>Aug 2011&mdash;Now</h5>
-                                <p>Design and develop websites for clients including GateSwap, Cook Pine Solutions, and various student groups. Created Unfriend Finder, a Facebook application that reached over 350,000 users.</p>
+                                <p>Design and develop websites for clients including Cook Pine Capital, GateSwap, and various student organizations. Created Unfriend Finder, a Facebook application that reached over 350,000 users.</p>
                             <h3>Design + Development Intern</h3>
                                 <h4>Flow Asia</h4>
                                 <h5>June 2012&mdash;July 2012</h5>
@@ -152,11 +152,11 @@
                    
                         <h2>Organizations + Activities</h2>
                             <h3>The Harvard Crimson (2011&mdash;)</h3>
-                            <h4>Web Design Executive / Online Design Comp Director</h4>
+                            <h4>Online Design Executive <em>(former Magazine Design Chair)</em></h4>
                             <h3>Women in Computer Science (2012&mdash;)</h3>
-                            <h4>Secretary / Twitter Sensei</h4>
+                            <h4>Education Chair</h4>
                             <h3>Ballroom Dance Team (2010&mdash;2012)</h3>
-                            <h4>Webmaster / Judges' Liaison / Competitive dancer</h4>                              
+                            <h4>Webmaster / Judges' Liaison / competitive dancer</h4>                              
                         <h2>Toolbox</h2>
                             <ul class="list">
                                 <li>C</li>
@@ -194,7 +194,7 @@
                                 <h3>Redesign of the Harvard Investment Association website.</h3>
                             </div>
                         </a>
-                        <a href="http://www.tinyurl.com/crimson-online-design-comp/" target="_blank">
+                        <a href="work/onlinedesign/" target="_blank">
                             <img src="assets/images/screenshots/odcomp.png" />
                             <div class="caption">
                                 <h3>Landing page for the Harvard <em>Crimson</em>'s online design introduction process.</h3>
@@ -247,12 +247,12 @@
                 <div id="contact_section">
                     <div id="contact_side">
                         <h2>Social Butterfly</h2>
-                        <a href="http://www.linkedin.com/pub/angela-li/32/b4b/bb9">i</a> 
-                        <a href="http://angelaconstance.wordpress.com/">w</a>  
+                        <a href="http://www.linkedin.com/in/angelaconstance">i</a> 
+                        <a href="http://angelaconstance.wordpress.com">w</a>  
                         <a href="https://www.facebook.com/angelaconstanceli">f</a> 
                         <a href="https://twitter.com/angelaconstance">t</a> 
                         <a href="http://fauvism.tumblr.com">o</a> 
-                        <a href="http://pinterest.com/angelaconstance/">&</a> 
+                        <a href="http://pinterest.com/angelaconstance">&</a> 
                         <p><a href="https://github.com/angelaconstance">Fork me on GitHub</a></p>
                     </div>
                     <div id="contact_main">
@@ -284,7 +284,7 @@
                 </div>
             </div>
             <div id="footer">
-                Designed and coded with love by <a href="mailto:angela@angelaconstance.com">Angela Li</a> (that's me!). The color of the moment is <a href="http://www.colourlovers.com/color/<?php echo $c;?>">#<?php echo $c?></a>&mdash;refresh for a makeover!
+                With love from <a href="mailto:angela@angelaconstance.com">Angela Li</a>. The color of the moment is <a href="http://www.colourlovers.com/color/<?php echo $c;?>">#<?php echo $c?></a>&mdash;refresh for a makeover!
             </div>
         </div>
     </body>
