@@ -135,24 +135,32 @@
 
             <h2>Toolbox</h2>
               <ul class="list">
+                <li>Java</li>
                 <li>C</li>
                 <li>Python</li>
-                <li>Javascript / jQuery</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
                 <li>PHP</li>
                 <li>SQL</li>
                 <li>OCaml</li>
                 <li>Prolog</li>
+                <li>Processing</li>
                 <li>x86 assembly</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>InDesign</li>
+                <li><span style="font-family:cmr10, LMRoman10-Regular, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></li>
                 <li>Windows</li>
                 <li>UNIX</li>
                 <li>Wordpress</li>
                 <li>Django</li>
                 <li>Joomla</li>
-                <li><span style="font-family:cmr10, LMRoman10-Regular, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></li>
-                <li>HTML / CSS</li>
-                <li>InDesign</li>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
+                <li>CoffeeScript</li>
+                <li>d3.js</li>
+                <li>Backbone.js</li>
+                <li>Handlebars.js</li>
                 <li>Mandarin Chinese</li>
                 <li>Spanish</li>
                 <li>French</li>
@@ -184,13 +192,15 @@
                 <p><strong>&rarr; </strong>Graduated May 2010. President of symphony orchestra, LGBTQ alliance, and English honor society; member of varsity math team and quiz bowl; outreach leader at HIV/AIDS clinic.</p>
 
             <h2>Organizations + Activities</h2>
-              <h3>The Harvard Crimson (2011&mdash;)</h3>
-              <h4>Online Design Executive <em>(former Magazine Design Chair)</em></h4>
-              <h3>Women in Computer Science (2012&mdash;)</h3>
-              <h4>Education Chair</h4>
-              <h3>Ballroom Dance Team (2010&mdash;2012)</h3>
-              <h4>Webmaster / Judges' Liaison / competitive dancer</h4>
-
+              <h3>The Harvard Crimson</h3>
+                <h4>Online Design Chair</h4>
+                <p>Lead new board for web features and data visualization; design curriculum for and teach seminars on web design and development. Former design executive of <em>Fifteen Minutes</em> magazine.</p>
+              <h3>Harvard Women in Computer Science</h3>
+                <h4>Education Chair</h4>
+                <p>Compile educational resources; organize study breaks and problem set nights. Former secretary and Twitterer.</p>
+              <h3>Crimson Summer Academy</h3>
+                <h4>Mentor</h4>
+                <p>Tutor and residential advisor for disadvantaged high schoolers. Taught math, programming, and photography.</p>
           </div>
         </div>
         <div id="work_section">
